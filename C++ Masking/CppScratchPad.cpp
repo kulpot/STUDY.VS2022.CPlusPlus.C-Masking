@@ -5,7 +5,11 @@ using std::endl;
 // --------------------- C++ Masking ---------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=vf0n7te3_Vc&list=PLRwVmtr-pp043Ah3GxAqNyoMGyo3_LDNh&index=3
 
-
+void main()
+{
+	short mysteriousValue = 0;
+	short mask = 1;
+}
 
 
 
