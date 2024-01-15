@@ -9,6 +9,8 @@ void main()
 {
 	short mysteriousValue = 0;
 	short mask = 1;
+	// 0000 0000 0000 0001
+	// 0000 0000 0000 0000
 }
 
 
