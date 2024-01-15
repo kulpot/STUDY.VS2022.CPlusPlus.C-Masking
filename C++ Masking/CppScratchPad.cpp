@@ -5,14 +5,31 @@ using std::endl;
 // --------------------- C++ Masking ---------------------------------------------------
 //ref link:https://www.youtube.com/watch?v=vf0n7te3_Vc&list=PLRwVmtr-pp043Ah3GxAqNyoMGyo3_LDNh&index=3
 
+// Masking - bit by bit value check to mask the whole value
+
 void main()
 {
-	short mysteriousValue = 0;
-	short mask = 1;
+	short mysteriousValue =																												13;
+	//short mask = 1;
 	// 0000 0000 0000 0001
-	// ???? ???? ???? ????
-	// 0000 0000 0000 0000
-	//
+	// ???? ???? ???? ???1
+	// 0000 0000 0000 0001
+
+	//short mask = 2;
+	// 0000 0000 0000 0010
+	// ???? ???? ???? ??01
+	// 0000 0000 0000 0001
+
+	//short mask = 4;
+	// 0000 0000 0000 0100
+	// ???? ???? ???? ?101
+	// 0000 0000 0000 0101
+
+	short mask = 8;
+	// 0000 0000 0000 1000
+	// ???? ???? ???? ?101
+	// 0000 0000 0000 0101
+	
 
 	if ((mask & mysteriousValue) != 0)
 	//if ((1) != 0)
