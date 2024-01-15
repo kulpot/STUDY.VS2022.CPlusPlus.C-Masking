@@ -10,9 +10,15 @@ void main()
 	short mysteriousValue = 0;
 	short mask = 1;
 	// 0000 0000 0000 0001
+	// ???? ???? ???? ????
 	// 0000 0000 0000 0000
+	//
 
-	if ((mask & mysteriousValue) != 0);
+	//if ((mask & mysteriousValue) != 0);
+	if ((1) != 0)
+		cout << 1 << endl;
+	else
+		cout << 0 << endl;
 }
 
 
