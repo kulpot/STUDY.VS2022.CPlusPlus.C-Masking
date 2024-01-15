@@ -11,6 +11,8 @@ void main()
 	short mask = 1;
 	// 0000 0000 0000 0001
 	// 0000 0000 0000 0000
+
+	if ((mask & mysteriousValue) != 0);
 }
 
 
